@@ -1,0 +1,40 @@
+{
+  "name": "graphql-project",
+  "version": "1.0.0",
+  "description": "\"A simple project with graphql\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "start:prod": "set NODE_ENV=production&nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbirAzim/Graphql-Project.git"
+  },
+  "author": "badhon khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbirAzim/Graphql-Project/issues"
+  },
+  "homepage": "https://github.com/AbirAzim/Graphql-Project#readme",
+  "dependencies": {
+    "dotenv": "^9.0.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.23.0",
+    "ndb": "^1.1.5",
+    "prettier": "^2.2.1"
+  }
+}
